@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="form">
+            <img src="https://enciclopedia.net/wp-content/uploads/2013/11/usuario.jpg" alt="" class="img-principal">
+            <form action="" id="form-registro">
+                <h1 class="text mt-2">Registrarse</h1>
+                <div class="grupo">
+                    <input type="text" id="nombre" class="form-control" required placeholder="Nombre"> <span
+                        class="barra"></span>
+                    <label for=""></label>
+                </div>
+                <div class="grupo">
+                    <input type="text" id="apellido" class="form-control" required placeholder="Apellido"> <span
+                        class="barra"></span>
+                    <label for=""></label>
+                </div>
+                <div class="grupo">
+                    <input type="text" id="correo" class="form-control" required placeholder="Correo electronico"><br>
+                    <input type="text" id="correo2" class="form-control" required placeholder="Repetir Correo electronico">
+                    <span class="barra"></span>
+                    <label for=""></label>
+                </div>
+                <div class="grupo">
+                    <input type="password" id="contraseña" class="form-control" required placeholder="Contraseña"><br>
+                    <input type="password" id="contraseña2" class="form-control" required placeholder="Repetir Contraseña">
+                    <span class="barra"></span>
+                    <label for=""></label> <br>
+                    <button class="btn btn-secondary mb-4" type="submit" value="Registrarse" id="registrarse">Registrarse</button>
+                    <P class="text-danger warning" id="warning"></P>
+                    <br>
+
+                    <div class="Regresar">
+                        Para volver click en <a href="login.html" class="form-link">Regresar</a>
+                    </div>
+
+                </div>
+    </div>
+    </form>
+    <br>
+    </div>
+    
+    <script src="registro.js"></script>
+</body>
+
+</html>
